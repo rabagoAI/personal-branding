@@ -685,6 +685,7 @@ ul, ol { list-style: none; padding: 0; }
 .project-row.is-revealed { opacity: 1; transform: none; }
 .project-row:first-child { border-top: 1px solid var(--line); }
 .project-row:hover { background: rgba(242,237,230,0.02); }
+.project-row[data-href] { cursor: pointer; }
 .project-row:hover .project-row-arrow { transform: translateX(6px); opacity: 1; }
 .project-row:hover .project-row-name { color: var(--accent); }
 

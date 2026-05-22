@@ -280,6 +280,34 @@
     });
   }
 
+  /* ── Project row links ───────────────────────────────── */
+  function initProjectLinks() {
+    $$("[data-href]").forEach(function (el) {
+      el.addEventListener("click", function (e) {
+        if (e.target.closest("a")) return;
+        var a = document.createElement("a");
+        a.href = el.dataset.href;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      });
+      el.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          var a = document.createElement("a");
+          a.href = el.dataset.href;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        }
+      });
+    });
+  }
+
   /* ── Smooth anchor scroll ────────────────────────────── */
   function initSmoothAnchors() {
     document.addEventListener("click", function (e) {
@@ -363,6 +391,7 @@
     safe(initCountUp,       "initCountUp");
     safe(initMarquee,       "initMarquee");
     safe(initScramble,      "initScramble");
+    safe(initProjectLinks,  "initProjectLinks");
     safe(initSmoothAnchors, "initSmoothAnchors");
     safe(initMagnetic,      "initMagnetic");
     safe(initTilt,          "initTilt");
