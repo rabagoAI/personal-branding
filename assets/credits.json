@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "src": "assets/img/hero.jpg",
+    "title": "Portrait man",
+    "creator": "dinhin2503@gmail.com",
+    "creator_url": "https://www.flickr.com/photos/46401501@N00",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/46401501@N00/20125177663",
+    "source": "flickr"
+  },
+  "about": {
+    "src": "assets/img/about.jpg",
+    "title": "dinner preparations [DILO]",
+    "creator": "striatic",
+    "creator_url": "https://www.flickr.com/photos/34427466731@N01",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/34427466731@N01/264696389",
+    "source": "flickr"
+  },
+  "workspace": {
+    "src": "assets/img/workspace.jpg",
+    "title": "Computer desk",
+    "creator": "lilyball",
+    "creator_url": "https://www.flickr.com/photos/33808496@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/33808496@N00/68121583",
+    "source": "flickr"
+  }
+}

@@ -1,0 +1,10 @@
+# Sistema
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Fotos originales sin procesar (no subir RAW/originales grandes)
+assets/photos/
+
+# Tools (scripts Python de desarrollo)
+tools/

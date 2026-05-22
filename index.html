@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Francisco García Rábago — Desarrollo Web &amp; IA · Toledo</title>
+  <meta name="description" content="Desarrollador web freelance e integrador de IA. Webs premium para negocios locales. Soluciones con Claude API, LangChain y Python. Toledo, España.">
+  <meta name="author" content="Francisco García Rábago">
+  <meta property="og:title" content="Francisco García Rábago — Desarrollo Web &amp; IA">
+  <meta property="og:description" content="Webs de nivel premium para negocios locales. Inteligencia artificial que resuelve problemas reales.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0A0806">
+
+  <!-- Preload hero -->
+  <link rel="preload" as="image" href="assets/img/hero.jpg" fetchpriority="high">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css?v=20260522b">
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- Custom cursor -->
+  <div class="cursor" data-cursor-root aria-hidden="true">
+    <span class="cursor-dot"></span>
+    <span class="cursor-ring"></span>
+  </div>
+
+  <!-- ═══ NAVIGATION ═════════════════════════════════════════ -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
+    <div class="nav-inner container">
+      <a class="nav-logo" href="#hero" aria-label="Ir al inicio">Paco<span class="nav-logo-accent">.</span></a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#sobre"    class="nav-link">Sobre mí</a></li>
+        <li><a href="#servicios" class="nav-link">Disciplinas</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link nav-link-cta">Hablemos</a></li>
+      </ul>
+
+      <button class="nav-burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="nav-mobile" id="nav-mobile" aria-hidden="true" role="dialog" aria-label="Menú de navegación">
+    <ul class="nav-mobile-links" role="list">
+      <li><a href="#sobre">Sobre mí</a></li>
+      <li><a href="#servicios">Disciplinas</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Hablemos</a></li>
+    </ul>
+    <div class="nav-mobile-foot">
+      <a href="mailto:rabagoai01@gmail.com" class="nav-mobile-email">rabagoai01@gmail.com</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ═══ HERO ══════════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-label="Presentación">
+      <div class="hero-gradient" data-mouse-gradient aria-hidden="true"></div>
+      <div class="hero-grain"    aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+
+          <p class="hero-kicker" data-reveal>
+            <span class="hero-kicker-dot" aria-hidden="true"></span>
+            Disponible para nuevos proyectos
+          </p>
+
+          <h1 class="hero-title" data-reveal>
+            Francisco<br>
+            <em>García Rábago.</em>
+          </h1>
+
+          <p class="hero-sub" data-reveal>
+            Desarrollo web de nivel premium para negocios locales.<br>
+            Inteligencia artificial que resuelve problemas reales.
+          </p>
+
+          <div class="hero-actions" data-reveal>
+            <a href="#contacto" class="btn btn-primary" data-magnetic>Hablemos →</a>
+            <a href="#proyectos" class="btn btn-ghost">Ver proyectos</a>
+          </div>
+
+          <div class="hero-meta" data-reveal>
+            <span class="hero-meta-item">
+              <span data-count-to="20">20</span>+ años en industria
+            </span>
+            <span class="hero-meta-sep" aria-hidden="true">·</span>
+            <span class="hero-meta-item">
+              <span data-count-to="5">5</span> proyectos publicados
+            </span>
+            <span class="hero-meta-sep" aria-hidden="true">·</span>
+            <span class="hero-meta-item">Toledo, España</span>
+          </div>
+
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-photo-wrap">
+            <img
+              src="assets/img/hero.jpg"
+              alt="Francisco García Rábago"
+              class="hero-photo"
+              fetchpriority="high"
+              loading="eager"
+              decoding="sync">
+            <div class="hero-photo-glow"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ═══ SOBRE MÍ ═══════════════════════════════════════════ -->
+    <section class="about" id="sobre" aria-label="Sobre mí">
+      <div class="about-inner container">
+
+        <div class="about-photo-col">
+          <div class="about-photo-wrap" data-reveal>
+            <img
+              src="assets/img/about.jpg"
+              alt="Paco trabajando en su escritorio"
+              loading="lazy"
+              decoding="async">
+            <div class="about-photo-tag">
+              <span class="mono">Toledo · España</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-col">
+          <p class="section-kicker" data-reveal>/ Sobre mí</p>
+
+          <h2 class="section-title" data-reveal>
+            Veinte años ejecutando.<br>
+            <em>Desde 2023, construyendo.</em>
+          </h2>
+
+          <div class="about-body" data-reveal>
+            <p>Soy responsable de producción en Catalysis SL, en Toledo. Llevo más de veinte años gestionando operaciones, datos y equipos en fabricación industrial.</p>
+            <p>En paralelo, he construido otra carrera desde cero: desarrollador web freelance, creador de contenido sobre IA, y autor. No porque tuviera que hacerlo, sino porque no podía parar.</p>
+            <p>Cuando construyo una web o una solución de IA para tu empresa, lo hago pensando en resultados, no en tecnología por la tecnología. Trabajo con autonomía, cumplo plazos y comunico con claridad.</p>
+          </div>
+
+          <div class="about-pills" data-reveal>
+            <span class="pill">Técnico Superior DAM <em>(en curso)</em></span>
+            <span class="pill">Autodidacta en IA desde 2023</span>
+            <span class="pill">Autor · Leanpub + Amazon</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ SERVICIOS ══════════════════════════════════════════ -->
+    <section class="services" id="servicios" aria-label="Servicios">
+      <div class="services-inner container">
+
+        <div class="services-header">
+          <p class="section-kicker" data-reveal>/ Lo que hago</p>
+          <h2 class="section-title" data-reveal>
+            Tres disciplinas.<br>
+            <em>Un solo nivel de exigencia.</em>
+          </h2>
+        </div>
+
+        <div class="roles-grid">
+
+          <article class="role-card" data-reveal>
+            <img src="assets/img/role-01.jpg"
+                 alt="Francisco García Rábago — Desarrollo web"
+                 loading="lazy" decoding="async">
+            <div class="role-card-overlay" aria-hidden="true"></div>
+            <div class="role-card-body">
+              <span class="role-card-num">01</span>
+              <h3 class="role-card-title">Desarrollador<br><em>web premium</em></h3>
+              <p class="role-card-desc">Webs de nivel profesional para negocios locales. Identidad visual, animaciones y presencia real. No plantillas.</p>
+              <div class="role-card-tags" aria-label="Tecnologías">
+                <span class="role-tag">React</span>
+                <span class="role-tag">TypeScript</span>
+                <span class="role-tag">Framer Motion</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="role-card" data-reveal>
+            <img src="assets/img/role-02.jpg"
+                 alt="Francisco García Rábago — Inteligencia artificial"
+                 loading="lazy" decoding="async">
+            <div class="role-card-overlay" aria-hidden="true"></div>
+            <div class="role-card-body">
+              <span class="role-card-num">02</span>
+              <h3 class="role-card-title">Especialista en<br><em>inteligencia artificial</em></h3>
+              <p class="role-card-desc">Asistentes RAG, automatizaciones y herramientas con Claude API, LangChain y Python.</p>
+              <div class="role-card-tags" aria-label="Tecnologías">
+                <span class="role-tag">Python</span>
+                <span class="role-tag">LangChain</span>
+                <span class="role-tag">Claude API</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="role-card" data-reveal>
+            <img src="assets/img/role-03.jpg"
+                 alt="Francisco García Rábago — Creador de contenido"
+                 loading="lazy" decoding="async">
+            <div class="role-card-overlay" aria-hidden="true"></div>
+            <div class="role-card-body">
+              <span class="role-card-num">03</span>
+              <h3 class="role-card-title">Creador de<br><em>contenido sobre IA</em></h3>
+              <p class="role-card-desc">Canal @rabagoai en YouTube y ebook publicado. Divulgando IA en español para hispanohablantes.</p>
+              <div class="role-card-tags" aria-label="Canales">
+                <span class="role-tag">YouTube</span>
+                <span class="role-tag">Leanpub</span>
+                <span class="role-tag">Amazon KDP</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PROYECTOS ══════════════════════════════════════════ -->
+    <section class="projects" id="proyectos" aria-label="Proyectos destacados">
+      <div class="projects-inner container">
+
+        <div class="projects-header">
+          <p class="section-kicker" data-reveal>/ Proyectos</p>
+          <h2 class="section-title" data-reveal>
+            Lo que he <em>construido.</em>
+          </h2>
+        </div>
+
+        <ol class="projects-list" aria-label="Lista de proyectos">
+
+          <li class="project-row" data-reveal tabindex="0" role="listitem">
+            <div class="project-row-num mono" aria-hidden="true">01</div>
+            <div class="project-row-body">
+              <div class="project-row-top">
+                <h3 class="project-row-name">ORÍGENES</h3>
+                <span class="project-row-cat">Web Premium</span>
+                <span class="project-row-year mono">2025</span>
+              </div>
+              <p class="project-row-desc">Demo de landing para restaurantes, usada como herramienta de pitch a clientes reales. React + Vite + Framer Motion. Desplegada en Vercel.</p>
+            </div>
+            <div class="project-row-arrow" aria-hidden="true">→</div>
+          </li>
+
+          <li class="project-row" data-reveal tabindex="0" role="listitem">
+            <div class="project-row-num mono" aria-hidden="true">02</div>
+            <div class="project-row-body">
+              <div class="project-row-top">
+                <h3 class="project-row-name">SmartStudIA</h3>
+                <span class="project-row-cat">SaaS + IA</span>
+                <span class="project-row-year mono">2024</span>
+              </div>
+              <p class="project-row-desc">SaaS educativo con IA para estudiantes de ESO. React, Firebase, Gemini API y suscripciones PayPal.</p>
+            </div>
+            <div class="project-row-arrow" aria-hidden="true">→</div>
+          </li>
+
+          <li class="project-row" data-reveal tabindex="0" role="listitem">
+            <div class="project-row-num mono" aria-hidden="true">03</div>
+            <div class="project-row-body">
+              <div class="project-row-top">
+                <h3 class="project-row-name">NutriDoc AI</h3>
+                <span class="project-row-cat">IA / RAG</span>
+                <span class="project-row-year mono">2024</span>
+              </div>
+              <p class="project-row-desc">Asistente RAG para la industria nutracéutica. LangChain, ChromaDB, Claude Haiku, FastAPI.</p>
+            </div>
+            <div class="project-row-arrow" aria-hidden="true">→</div>
+          </li>
+
+          <li class="project-row" data-reveal tabindex="0" role="listitem">
+            <div class="project-row-num mono" aria-hidden="true">04</div>
+            <div class="project-row-body">
+              <div class="project-row-top">
+                <h3 class="project-row-name">rabagoai-shorts</h3>
+                <span class="project-row-cat">Automatización</span>
+                <span class="project-row-year mono">2024</span>
+              </div>
+              <p class="project-row-desc">Pipeline automatizado para generar y publicar YouTube Shorts con Claude Haiku y GitHub Actions.</p>
+            </div>
+            <div class="project-row-arrow" aria-hidden="true">→</div>
+          </li>
+
+          <li class="project-row" data-reveal tabindex="0" role="listitem">
+            <div class="project-row-num mono" aria-hidden="true">05</div>
+            <div class="project-row-body">
+              <div class="project-row-top">
+                <h3 class="project-row-name">Tu Empleado Digital</h3>
+                <span class="project-row-cat">Libro</span>
+                <span class="project-row-year mono">2024</span>
+              </div>
+              <p class="project-row-desc">Guía práctica en español para usar Claude como asistente de trabajo real. Disponible en Leanpub y Amazon KDP.</p>
+            </div>
+            <div class="project-row-arrow" aria-hidden="true">→</div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ═══ STACK MARQUEE ═════════════════════════════════════ -->
+    <section class="stack" id="stack" aria-label="Stack tecnológico">
+      <div class="marquee" role="marquee" aria-label="Tecnologías que uso">
+        <div class="marquee-track" data-marquee>
+          <span>React</span><span class="sep" aria-hidden="true">·</span>
+          <span>TypeScript</span><span class="sep" aria-hidden="true">·</span>
+          <span>Python</span><span class="sep" aria-hidden="true">·</span>
+          <span>LangChain</span><span class="sep" aria-hidden="true">·</span>
+          <span>Claude API</span><span class="sep" aria-hidden="true">·</span>
+          <span>FastAPI</span><span class="sep" aria-hidden="true">·</span>
+          <span>Supabase</span><span class="sep" aria-hidden="true">·</span>
+          <span>Firebase</span><span class="sep" aria-hidden="true">·</span>
+          <span>Vercel</span><span class="sep" aria-hidden="true">·</span>
+          <span>Tailwind CSS</span><span class="sep" aria-hidden="true">·</span>
+          <span>Framer Motion</span><span class="sep" aria-hidden="true">·</span>
+          <span>ChromaDB</span><span class="sep" aria-hidden="true">·</span>
+          <span>SAP Business One</span><span class="sep" aria-hidden="true">·</span>
+          <span>Power BI</span><span class="sep" aria-hidden="true">·</span>
+          <span>GitHub Actions</span><span class="sep" aria-hidden="true">·</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACTO ═══════════════════════════════════════════ -->
+    <section class="contact" id="contacto" aria-label="Contacto">
+      <div class="contact-mesh" aria-hidden="true"></div>
+      <div class="contact-inner container">
+
+        <p class="section-kicker" data-reveal>/ Contacto</p>
+
+        <h2 class="contact-title" data-reveal>
+          ¿Tienes un proyecto?<br>
+          <em>Hablemos.</em>
+        </h2>
+
+        <a
+          href="mailto:rabagoai01@gmail.com"
+          class="contact-email"
+          data-reveal
+          data-scramble
+          aria-label="Enviar email a rabagoai01@gmail.com">
+          rabagoai01@gmail.com
+        </a>
+
+        <div class="contact-links" data-reveal>
+          <a
+            href="https://www.linkedin.com/in/francisco-garcia-rabago-445b20aa"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-social-link"
+            aria-label="Perfil de LinkedIn de Francisco García Rábago">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LinkedIn
+          </a>
+          <a
+            href="https://youtube.com/@rabagoai"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-social-link"
+            aria-label="Canal de YouTube @rabagoai">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+            </svg>
+            @rabagoai
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner container">
+      <p class="footer-name">Francisco García Rábago</p>
+      <p class="footer-rights">© 2026 · Toledo, España</p>
+    </div>
+  </footer>
+
+  <!-- Scripts — IIFE pattern, no modules, defer ordered -->
+  <script defer src="lib/gsap.min.js"></script>
+  <script defer src="lib/ScrollTrigger.min.js"></script>
+  <script defer src="lib/manifest.js"></script>
+  <script defer src="main.js?v=20260522"></script>
+</body>
+</html>
