@@ -2,11 +2,7 @@
   "cleanUrls": true,
   "headers": [
     {
-      "source": "/(.*\\.html)",
-      "headers": [{ "key": "Cache-Control", "value": "no-cache, must-revalidate" }]
-    },
-    {
-      "source": "/(.*\\.(css|js|json))",
+      "source": "/(.*)",
       "headers": [{ "key": "Cache-Control", "value": "no-cache, must-revalidate" }]
     },
     {
